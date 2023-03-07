@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.homeLinks img{
+  width: 100%;
+}
+
+a{
+  all: unset;
+}
+
+.homeLinks{
+  text-align: left;
+}
+
+.homeLinks >:not(img){
+  margin: 5%;
+}
+
+.homeHeader{
+  width: 100%;
+  height: 10%;
+  background-color: #61dafb;
+}
+
+.homeHeader img{
+  height: 5vw;
+}
+
+.beerList{
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.beerList img{
+  width: 20%;
+  height: auto;
+}
