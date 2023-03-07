@@ -26,7 +26,7 @@ function NewBeer(){
                     console.log(response.status);
                 })
                 .catch((error) => console.log(error));
-        }}>
+        }}> 
             <label htmlFor="">
                 Name
                 <input type="text" onChange={(event) => {setName(event.target.value)}}/>
